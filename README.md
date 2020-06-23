@@ -7,3 +7,6 @@ Then, clone this repository and execute the following command:
 *`ruby main.rb <brainfuck filename> [stack size]`
 
 *argument inside of [brackets] is optional. default stack size - 100
+
+Keep in mind - there are no loops **yet**. I'm working on implementing it.
+Input might be broken (at least it doesn't work for me, still can't find the solution.)

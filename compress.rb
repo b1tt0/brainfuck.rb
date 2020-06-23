@@ -1,5 +1,6 @@
-# Compress Brainfuck code
+require_relative "constants.rb"
 
+# Compress Brainfuck code
 module Compress
   def self.compress (code)
   result = ""
