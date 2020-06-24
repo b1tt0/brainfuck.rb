@@ -15,7 +15,7 @@ module BFEval
       if instr == CN::IN::PRT then
         output = "#{output} #{stack[index].to_s}"
       end
-      stack[index] =gets.chomp.to_i if instr == CN::IN::INP
+      stack[index] = $stdin.gets.to_i if instr == CN::IN::INP
     }
     [output, stack, index]
   end
