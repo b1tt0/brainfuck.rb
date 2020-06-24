@@ -12,5 +12,5 @@ Input:
 >,++ User input will get incremented
 
 Both:
->,-.    User input -1
-,+++++. User input +5
+>,-.    User input minus 1
+,+++++. User input plus 5
